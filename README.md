@@ -17,15 +17,17 @@ _学习 Go 程序的基本组件_。
  > 3. 可以使用 短声明 符号`:=` 在明确类型的地方 替换 var;但是`:=`不能在函数方法外使用，函数外的每个语句都必须以（`var`、`func`、等等）开始
  > 4. 变量可以打包申明一个语法块儿 如同 "导包"  使用`()`
 #### 基本类型
-> 1. `bool
-   string
-   int  int8  int16  int32  int64
-   uint uint8 uint16 uint32 uint64 uintptr
-   byte  uint8 的别名
-   rune  int32 的别名
-         代表一个Unicode码
-   float32 float64
-   complex64 complex128`
+```
+      bool
+      string
+      int  int8  int16  int32  int64
+      uint uint8 uint16 uint32 uint64 uintptr
+      byte  uint8 的别名
+      rune  int32 的别名
+            代表一个Unicode码
+      float32 float64
+      complex64 complex128
+   ```
  > 2. 倘若不赋值 数值类型的默认值是`0`  布尔类型的默认值为`false` 字符串的默认值为`""`
  > 3. 类型转换 go语言中的类型转换需要显示转换
  > 4. go语言存在类型推导语言特性 使用没有类型的 `var` 或 `:=` 语句 由初始值反推变量类型
@@ -34,6 +36,7 @@ _学习 Go 程序的基本组件_。
 
 ## 流程控制语句：for、if、else 和 switch
     学习如何用条件、循环和开关语句控制代码的流程。
+
 
 # [TODO](http://go-tour-zh.appspot.com/flowcontrol/1)
 
