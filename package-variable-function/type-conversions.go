@@ -12,4 +12,8 @@ func main() {
 	var z int = int(f)
 	fmt.Println(x, y, z)
 
+	var i int = 42
+	var f float64 = float64(i)
+	var u uint
+
 }
