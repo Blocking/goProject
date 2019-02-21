@@ -71,9 +71,12 @@ _学习 Go 程序的基本组件_。
 ## 复杂类型： struct、slice 和 map。
   学习如何基于已有类型定义新的类型：本课涵盖了结构体、数组、slice 和 map。
 
- >1
+ >1 `Go`语言中是有指针存在的。指针保存了变量的内存地址：
+ `&` 符号会生成一个指向其作用对象的指针;
+ `* `符号表示指针指向的底层的值;
+ 即通常所说的“间接引用”或“非直接引用” 与 C 不同，Go 没有指针运算。
 
-# [TODO](http://go-tour-zh.appspot.com/flowcontrol/1)
+# [TODO](http://go-tour-zh.appspot.com/moretypes/5)
 
 
 
