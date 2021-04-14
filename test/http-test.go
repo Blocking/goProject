@@ -16,7 +16,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	cookie := http.Cookie{Name: "SESSION", Value: "f4116174-ea7d-40ab-8cb1-5bbdbd148bbc", Expires: time.Now().Add(111 * time.Second)}
+	cookie := http.Cookie{Name: "SESSION", Value: "f54c1b45-ed05-4162-88fb-938d4c798246", Expires: time.Now().Add(111 * time.Second)}
 
 	req.AddCookie(&cookie)
 

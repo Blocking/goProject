@@ -35,9 +35,9 @@ type JsonTime struct {
 	time.Time
 }
 
-// 实现它的json序列化方法
-func (t1 JsonTime) MarshalJSON() ([]byte, error) {
-	var stamp = fmt.Sprintf("\"%s\"", time.Time(t1.Time).Format("2006-01-02 15:04:05"))
+// 实现它的json序列化方法x
+func (t JsonTime) MarshalJSON() ([]byte, error) {
+	var stamp = fmt.Sprintf("\"%s\"", time.Time(t.Time).Format("2006-01-02 15:04:05"))
 	return []byte(stamp), nil
 }
 

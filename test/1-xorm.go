@@ -9,16 +9,16 @@ import (
 
 // https://github.com/go-xorm/xorm
 func main() {
-	engine, err := xorm.NewEngine("mysql", "root:root@tcp(localhost:3306)/customers")
+	engine, err := xorm.NewEngine("mysql", "root:root_Zxy@tcp(117.78.0.112:3306)/bim")
 
 	if err != nil {
 		log.Fatal(err)
 	}
-	/*err1 := engine.Sync2(new(Users),new(raw_data))
+	err1 := engine.Sync2(new(Users), new(raw_data))
 
-	if err1 != nil{
+	if err1 != nil {
 		log.Fatal(err1)
-	}*/
+	}
 
 	println(engine.SupportInsertMany())
 
