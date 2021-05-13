@@ -21,7 +21,7 @@ type Person struct {
 	Address   string `json:"address,omitempty"`
 }
 
-func main() {
+func struct12() {
 	//arrayXp() //arrInit() //arrSpec() //twoArr() //threeArr() //slice1() //removeE() //slice2() //slice3()
 	//slice4() //map1() //map2() //map3() //map4() //map5()
 	//struct1() struct2()

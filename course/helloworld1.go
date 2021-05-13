@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func hello1() {
 	/*var p = reader("/tmp/dsapi.xuban.v1-data.csv")
 	for i,v := range p {
 		fmt.Println(i,v[1])

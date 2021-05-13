@@ -17,7 +17,7 @@ type employee struct {
 
 var ErrNotFound = errors.New("Employee not found!")
 
-func main() {
+func errorLog() {
 	//error1()
 	//log.SetPrefix("main():")
 

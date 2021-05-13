@@ -17,7 +17,7 @@ Go 支持 switch 语句，你不需要编写条件。 只需使用 case 子句�
 
 最后，你了解了其他 Go 控制流，例如 defer、panic 和 recover 函数。 Go 不支持异常。 它通过使用这三个函数的组合来处理运行时错误。
 */
-func main() {
+func courseF() {
 	//course1()
 	//course2()
 	//g(0)

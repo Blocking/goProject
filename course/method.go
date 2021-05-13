@@ -13,7 +13,7 @@ import (
 4、方法的一个关键点是可以为任何类型定义方法，而不仅仅局限于自定义结构体（如 struct）。但是，你不能通过属于其他包的类型来定义结构。因此不能在
 基本类型(如：string)上创建方法。但是我们可以利用一点技巧，基于基本类型来创建自定义类型，然后将其用于基本类型。
 */
-func main() {
+func method1() {
 	t := triangle{3}
 	fmt.Println("Perimeter(triangle):", t.perimeter())
 	s := square{3}
