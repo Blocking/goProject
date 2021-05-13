@@ -124,11 +124,10 @@ _学习 Go 程序的基本组件_。
 
 ## 声明方法
 语法：
-`
-func (variable type) MethodName(parameters ...) {
-// method functionality
-}
-`    
+
+    func (variable type) MethodName(parameters ...) {
+       // method functionality 
+    }
 + 声明方法之前 需要先创建方法接收的结构体 即 方法是挂在结构体下的
 + 方法必须依赖一个结构体 
 + 调用方法的唯一方式是先声明这个方法所依赖的结构 
